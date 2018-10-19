@@ -8,7 +8,7 @@ Building out each feature you want for your application will be challenging, but
 
 ### Requirements
 
-1. Must have full CRUD for one resource using `json-server` before adding an additional resource with Rails. For example, if we were building Instagram, we would create have the ability to create a photo, see a photo, update attributes of the photo, or delete the photo, storing this data in a `db.json` file. Once that functionality is achieved, we would then create our Rails backend to replace the `json-server` before moving forward and adding any additional resources.
+1. Must have full CRUD for one resource using `json-server` before adding an additional resource with Rails. For example, if we were building Instagram, we would create have the ability to create a photo, see a photo, update attributes of the photo, or delete the photo, storing this data in a `db.json` file. Once that functionality is achieved, we would then create our Rails backend to replace the `json-server` before moving forward and adding any additional resources (such as likes and comments).
 
 2. **No user authentication with passwords. When the page refreshes the current user will effectively be signed out**. The way you learned this in the previous module relied on the fact that Rails was sending small pieces of data (cookies/sessions) back and forth along with every request and response. Now, we have two separate applications and need to use a slightly different pattern. We'll look at patterns for dealing with client-side auth later in the semester, so you'll have plenty of time to deal with this case. 
    
