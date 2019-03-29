@@ -6,7 +6,7 @@ Building out each feature you want for your application will be challenging, but
 
 ## Requirements
 
-### Dos
+### Do's
 
 1. As a user of the application, I should be able to create, read, update, and delete the resource of your choosing. The Domain is up to you - some examples:
   + A photo sharing app
