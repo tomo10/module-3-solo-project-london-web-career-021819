@@ -16,6 +16,6 @@ Building out each feature you want for your application will be challenging, but
 3. Your backend (first db.json and later Rails) will be the Single Source of Truth for your application. Your frontend will render the data it receives from the backend. The pattern will be that your frontend Fetches data from your server and then renders it. Then the user interacts with the data which may fire subsequent GET, POST or PATCH requests.
 4. If your application requires a user model you can have users "sign in" or "sign up" by providing a username and/or email, but hold off on passwords for now.  
 
-### Do Nots
+### Do Not's
 
 1. **Do not try to implement a user authentication system with passwords.** When the page refreshes the current user will effectively be signed out. The way you learned this in the previous module relied on the fact that Rails was sending small pieces of data (cookies/sessions) back and forth along with every request and response. Now, we have two separate applications and need to use a slightly different pattern. We'll look at patterns for dealing with client-side auth later in the semester, so you'll have plenty of time to deal with this case.
